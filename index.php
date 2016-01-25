@@ -282,6 +282,8 @@ switch (ENVIRONMENT)
 
 	define('VIEWPATH', $view_folder);
 
+	define('ASSETS_URL', "http://api.app:8000/assets/");
+
 /*
  * --------------------------------------------------------------------
  * LOAD THE BOOTSTRAP FILE

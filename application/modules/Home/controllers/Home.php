@@ -9,6 +9,6 @@ class Home extends CI_Controller
 
 	function index()
 	{
-		echo "I am here";
+		echo ASSETS_URL;
 	}
 }
