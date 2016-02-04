@@ -1,6 +1,6 @@
 <?php
 
-class Home extends CI_Controller
+class Home extends MY_Controller
 {
 	function __construct()
 	{
@@ -9,6 +9,6 @@ class Home extends CI_Controller
 
 	function index()
 	{
-		echo ASSETS_URL;
+		$this->template->call_frontend_template();
 	}
 }

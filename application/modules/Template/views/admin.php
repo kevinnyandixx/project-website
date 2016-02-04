@@ -9,10 +9,12 @@
 
     <link href="<?php echo ASSETS_URL; ?>backend/css/bootstrap.min.css" rel="stylesheet">
     <link href="<?php echo ASSETS_URL; ?>backend/font-awesome/css/font-awesome.css" rel="stylesheet">
-
     <link href="<?php echo ASSETS_URL; ?>backend/css/animate.css" rel="stylesheet">
     <link href="<?php echo ASSETS_URL; ?>backend/css/style.css" rel="stylesheet">
-
+    <link href="<?php echo ASSETS_URL; ?>backend/css/plugins/dataTables/datatables.min.css" rel="stylesheet">
+    <script src="<?php echo ASSETS_URL; ?>backend/js/jquery-2.1.1.js"></script>
+    <script src="<?php echo ASSETS_URL; ?>backend/js/bootstrap.min.js"></script>
+    <script src="<?php echo ASSETS_URL; ?>backend/js/plugins/dataTables/datatables.min.js"></script>
 </head>
 
 <body class="">
@@ -27,8 +29,8 @@
                             <img alt="image" class="img-circle" src="<?php echo ASSETS_URL;?>backend/img/profile_small.jpg" />
                              </span>
                         <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                            <span class="clear"> <span class="block m-t-xs"> <strong class="font-bold">David Williams</strong>
-                             </span> <span class="text-muted text-xs block">Art Director <b class="caret"></b></span> </span> </a>
+                            <span class="clear"> <span class="block m-t-xs"> <strong class="font-bold">Kevin Nyandix</strong>
+                             </span> <span class="text-muted text-xs block">Administrator <b class="caret"></b></span> </span> </a>
                         <ul class="dropdown-menu animated fadeInRight m-t-xs">
                             <li><a href="#">Profile</a></li>
                             <li class="divider"></li>
@@ -46,7 +48,7 @@
                     <a href="#"><i class="fa fa-shopping-cart"></i> <span class="nav-label">Products</span><span class="fa arrow"></span></a>
                     <ul class="nav nav-second-level collapse">
                         <li><a href="<?php echo base_url(); ?>Products/categories">Categories</a></li>
-                        <li><a href="#">Products</a></li>
+                        <li><a href="<?php echo base_url(); ?>Products/product">Products</a></li>
                     </ul>
                 </li>
                 <li>
@@ -239,8 +241,7 @@
         </div>
 
     <!-- Mainly scripts -->
-    <script src="<?php echo ASSETS_URL; ?>backend/js/jquery-2.1.1.js"></script>
-    <script src="<?php echo ASSETS_URL; ?>backend/js/bootstrap.min.js"></script>
+   
     <script src="<?php echo ASSETS_URL; ?>backend/js/plugins/metisMenu/jquery.metisMenu.js"></script>
     <script src="<?php echo ASSETS_URL; ?>backend/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
 
@@ -248,7 +249,8 @@
     <script src="<?php echo ASSETS_URL; ?>backend/js/inspinia.js"></script>
     <script src="<?php echo ASSETS_URL; ?>backend/js/plugins/pace/pace.min.js"></script>
 
-
+    <!-- Steps -->
+    <script src="<?php echo ASSETS_URL; ?>backend/js/plugins/staps/jquery.steps.min.js"></script>
 </body>
 
 </html>

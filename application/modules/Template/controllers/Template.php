@@ -11,4 +11,9 @@ class Template extends MY_Controller
 	{
 		$this->load->view('Template/admin', $data);
 	}
+
+	function call_frontend_template($data = NULL)
+	{
+		$this->load->view('Template/frontend', $data);
+	}
 }
